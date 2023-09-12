@@ -6,6 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        let numOrStr = prompt('input number or string');
+        switch (numOrStr) {
+            case null:
+               alert ('ви скасували');
+               break;
+            case '':
+                alert ('Empty String');
+                break;
+            case numOrStr:
+                alert (' number is Ba_NaN');
+                break;
+            default:
+               alert ('OK!');     
+        }
+    </script>
 </body>
 </html>
